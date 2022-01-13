@@ -4,7 +4,6 @@ import uuid
 import os
 import json
 from pathlib import Path
-import azure.cognitiveservices.speech as speechsdk
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 Auth=json.load(open(BASE_DIR/'Auth.json'))
