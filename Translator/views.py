@@ -1,7 +1,6 @@
 from django.shortcuts import render
 import requests
 import uuid
-import os
 import json
 from pathlib import Path
 BASE_DIR = Path(__file__).resolve().parent.parent
