@@ -51,5 +51,3 @@ def Translator(request):
 		return render(request,'result.html',context=dict)
 
 	return render(request,'index.html')
-def index(request):
-	return render(request,'index.html')
